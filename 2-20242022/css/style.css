@@ -16,3 +16,15 @@
 #miniatura img:hover {
   transform: scale(1.1);
 }
+
+#painel {
+  display: fixed;
+  top: 0;
+  left: 0%;
+  /* width: 600%;*/
+  /*height: 500px;
+  margin-left: 30%;*/
+}
+#painel img {
+  width: 100%;
+}
