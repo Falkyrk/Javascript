@@ -30,3 +30,7 @@ Outro exemplo de aplicação do Javascript
   </body>
 </html>
 ```
+
+#### Cálculo do CPF em Javascript
+
+!["Código do cálculo do CPF"](PNG/cpf.png)
