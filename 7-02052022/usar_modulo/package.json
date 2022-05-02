@@ -1,0 +1,17 @@
+{
+  "name": "usar_modulo",
+  "version": "1.0.0",
+  "description": "Projeto para utilização de modulo criado por mim e meus colegas",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "NodeJS"
+  ],
+  "author": "Cauam",
+  "license": "ISC",
+  "dependencies": {
+    "tech-caa-pmn": "^1.0.1"
+  }
+}

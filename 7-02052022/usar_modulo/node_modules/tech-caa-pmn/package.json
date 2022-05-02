@@ -1,0 +1,16 @@
+{
+  "name": "tech-caa-pmn",
+  "version": "1.0.3",
+  "description": "Primeiro Modulo em NodeJS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Nodejs",
+    "Estudo",
+    "Funcoes"
+  ],
+  "author": "Cauam Marque",
+  "license": "ISC"
+}
