@@ -68,9 +68,11 @@ app.post("/cadastro", (req, res) => {
 //Para atualizar, precisaremos de duas informações. A primeira é o ID do dado que você deseja atualizar.
 //A segunda são os dados que deseja atualizar.
 app.put("/atualizar/:id", (req, res) => {
-    Cliente,findByIdAndUpdate(req.params.id, res.body,{new:true},(erro,dados) => {
-        if(erro)return res.status(400).send({output:`Erro ao atualizar-> ${erro}`});
-    })res.status(200).send({output:`Atualizado`, info:dados});
+    Cliente.findByIdAndUpdate(req.params.id, res.body,{new:true},(erro,dados) => {
+        if(erro)return res.status(404).send({output:`Erro ao atualizar: ${erro}`});
+    res.status(200).send({output:`Atualizado`, info:dados});
+    }
+    );
 
 });
 
