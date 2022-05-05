@@ -1,0 +1,94 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+header {
+  padding: 100px;
+  text-align: center;
+  background-color: rgb(100, 100, 100);
+  color: white;
+  font-family: verdana;
+  font-size: 15pt;
+}
+
+#cadastro a {
+  font-family: arial;
+  font-size: 12pt;
+  text-decoration: none;
+  color: #000;
+  margin: 10px;
+  transition: ease 1s;
+}
+
+#cadastro a:hover {
+  color: #f00;
+  padding-left: 10px;
+}
+
+#cadastro {
+  padding: 20px;
+}
+
+form {
+  padding: 10px;
+  width: 40%;
+  margin: auto;
+  text-align: center;
+  display: none;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  display: block;
+  margin: 5px;
+}
+
+button {
+  padding: 10px;
+  border: 0px;
+  background-color: rgb(129, 129, 134);
+  color: white;
+  cursor: pointer;
+}
+
+#produtos {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 80%;
+  margin: auto;
+  padding: 20px;
+  box-shadow: 0px 0px 5px 5px #eee;
+  justify-content: center;
+}
+
+#produtos div {
+  width: 30%;
+  margin: 5px;
+  text-align: center;
+  border: 1px solid #eee;
+}
+
+#produtos div img {
+  width: 100%;
+  height: 200px;
+}
+
+h2 {
+  font-family: "Lucida Sans";
+  font-size: 12pt;
+}
+
+h4 {
+  font-family: "Lucida Sans";
+  font-size: 10pt;
+  font-weight: lighter;
+}
+
+h5 {
+  color: rgb(80, 12, 12);
+  font-family: "Lucida Sans";
+}

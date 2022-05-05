@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body onload="carregarProdutos()">
+    <header>
+        <h1>Gerenciar Produtos</h1>
+    </header>
+
+    <main>
+        <div id="cadastro">
+            <a href="#" onclick="abrirForm()">Cadastro</a>
+            <form onsubmit="return false">
+                <input type="text"placeholder="Nome do Produto">
+                <input type="text"placeholder="Descrição do Produto">
+                <input type="text"placeholder="Categoria do Produto">
+                <input type="number"placeholder="Quantidade">
+                <input type="number"placeholder="Preço">
+                <input type="text"placeholder="Foto do Produto">
+                <button onclick="efetuarCadastro()">Cadastro</button>
+            </form>
+        </div>
+        <div id="produtos">
+
+
+
+
+        </div>
+
+    </main>
+
+    <script src="js/script.js"></script>
+    
+</body>
+</html>
